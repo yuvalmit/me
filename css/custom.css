@@ -15,18 +15,19 @@ body {
 }
 
 header,footer {
-	position: absolute;
+	
 	display: none;
 	font-size: 32px;
-	margin-top: 40px;
+
 }
 
 header {
+	position: absolute;
 	left: 35%;	
 }
 
 footer {
-	left: 15%;
+	text-align: center;
 }
 /*= Index-Canvas
  ============================================================= */
@@ -37,7 +38,7 @@ footer {
 }
 				
 #canvas_container{
-	margin: 0 auto;  
+	margin-top: 50px;  
     padding:5px;   
     position: relative; 
     z-index: -1;

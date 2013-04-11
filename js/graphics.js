@@ -246,7 +246,7 @@ function start()
       }
       if(numOflines < maxLines)
       {
-        timer = setTimeout(start, 10); 
+        timer = setTimeout(start, 5); 
       }
       else
       {
