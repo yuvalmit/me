@@ -23,7 +23,9 @@ header,footer {
 
 header {
 	position: absolute;
-	left: 35%;	
+    	left: 0;
+    	right: 0;
+    	text-align: center;
 }
 
 footer {
